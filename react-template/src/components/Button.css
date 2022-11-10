@@ -1,0 +1,37 @@
+button {
+    border-radius: 8px;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: 0;
+    margin: 12px;
+    cursor: pointer;
+    transform: rotate(0) scale(1);
+    transition: 100ms ease-in-out;
+
+}
+
+button:hover {
+    transform: rotate(1deg) scale(1.05);
+    transition: 100ms ease-in-out;
+    box-shadow: 0 4px 8px rgba(128, 128, 128, .25);
+
+}
+
+.primary {
+    background-color: #3dd77b;
+}
+
+.primary:hover {
+    background-color: #3ac471;
+}
+
+.secondary {
+    background-color: lightgray;
+    color: black;
+}
+
+.secondary:hover {
+    background-color: #c5c5c5;
+}
