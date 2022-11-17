@@ -1,0 +1,35 @@
+button {
+    padding:  12px  24px;
+    font-weight: normal;
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+    margin: 8px;
+}
+/*
+button:hover {
+    transform: scale(1.05) rotate(4deg);
+    padding:  12px  24px;
+  
+    font-weight: normal;
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+    margin: 8px;
+}
+*/
+
+.primary{
+    background-color: #3C3C3C;
+    color: #ADADAD;
+}
+
+.secondaey{
+    background-color: transparent;
+    color: #3C3C3C;
+    border: 2px solid #838383;
+}
+
+/*
+Hello Comment
+*/
