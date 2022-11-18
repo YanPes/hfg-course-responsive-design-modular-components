@@ -8,13 +8,11 @@ export const ButtonVariants = {
   }
 
 export const Button = (props) => {
-    const variantSyling = props.variant== ButtonVariants.primary ? ButtonVariants.primary ? ButtonVariants.secondary : ButtonVariants.tertiary ;
+    const variantSyling = props.variant == ButtonVariants.primary ? ButtonVariants.secondary : ButtonVariants.tertiary ;
     
     return (
 
         <button className={variantStyling}>{props.text}</button>
 
     )
-
-
 }
