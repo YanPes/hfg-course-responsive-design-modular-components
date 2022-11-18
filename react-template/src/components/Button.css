@@ -1,33 +1,43 @@
 button {
     padding:  12px  24px;
-    font-weight: normal;
-    outline: none;
+    font-weight: bold;
     border: 0;
-    border-radius: 4px;
-    margin: 8px;
+    border-radius: 8px;
+    margin: 12px;
+    cursor: pointer;
+    transform: rotate(0 scale(1));
+    transition: 100ms ease-in-out;
 }
-/*
+
+
 button:hover {
-    transform: scale(1.05) rotate(4deg);
-    padding:  12px  24px;
-  
-    font-weight: normal;
-    outline: none;
-    border: 0;
-    border-radius: 4px;
-    margin: 8px;
+   transform: rotate(1deg) scale(1.05);
+    transition: 100ms ease-in-out;
+    box-shadow: 0 4px 8px rgba(128, 128, 128, .25);
 }
-*/
+
 
 .primary{
-    background-color: #3C3C3C;
-    color: #ADADAD;
+    background-color: #FF5A3A;
+    color: #FFFFFF;
+    height: 18px;
+    width: 274px;    
 }
 
 .secondaey{
     background-color: transparent;
-    color: #3C3C3C;
-    border: 2px solid #838383;
+    color: #333333;
+    border: 2px solid #333333;
+    outline: 2px;
+    height: 80px;
+    width: 134px;
+}
+
+.tertiary{
+    background-color: transparent;
+    color: #333333;
+    height: 18px;
+    width: 274px;   
 }
 
 /*
