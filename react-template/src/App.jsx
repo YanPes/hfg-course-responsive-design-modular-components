@@ -11,6 +11,10 @@ function App() {
         text="Hello from Secondary"
         variant={ButtonVariants.secondary}
       />
+      <Button
+        text="Hello from Tertiary"
+        variant={ButtonVariants.tertiary}
+      />
     </div>
   )
 }

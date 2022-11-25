@@ -2,13 +2,19 @@ import './Button.css';
 
 export const ButtonVariants = {
   primary: 'primary',
-  secondary: 'secondary'
+  secondary: 'secondary',
+  tertiary: 'tertiary',
 }
 
-export const Button = (props) => {
-  const variantStyling = props.variant === ButtonVariants.primary ? ButtonVariants.primary : ButtonVariants.secondary;
+export const Button = ({variant, text}) => {
+  const handleVariantStyling = () => {
+    if (variant === ButtonVariants.primary) return 'primary';
+    if (variant === ButtonVariants.secondary) return 'secondary';
+    if (variant === ButtonVariants.tertiary) return 'tertiary';
+    return '';
+  }
 
   return(
-    <button className={variantStyling}>{props.text}</button>
+    <button className={handleVariantStyling()}>{text}</button>
   )
 }
