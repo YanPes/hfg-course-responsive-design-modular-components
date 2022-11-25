@@ -1,0 +1,48 @@
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal {
+  padding: 36px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.16);
+  width: 360px;
+  border-radius: 8px;
+  text-align: center;
+  background: white;
+}
+
+.header {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.header h3 {
+  margin: 0 0 16px 0;
+}
+
+.header p {
+  margin: 0 0 24px 0;
+  color: grey;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.content {
+}
+
+.footer {
+  display: flex;
+  gap: 16px;
+}
+
+.footer button {
+  width: 100%;
+  margin: 0;
+}

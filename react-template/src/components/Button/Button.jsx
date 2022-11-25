@@ -6,7 +6,7 @@ export const ButtonVariants = {
   tertiary: 'tertiary',
 }
 
-export const Button = ({variant, text}) => {
+export const Button = ({variant, text, onClick}) => {
   const handleVariantStyling = () => {
     if (variant === ButtonVariants.primary) return 'primary';
     if (variant === ButtonVariants.secondary) return 'secondary';
@@ -14,7 +14,5 @@ export const Button = ({variant, text}) => {
     return '';
   }
 
-  return(
-    <button className={handleVariantStyling()}>{text}</button>
-  )
+  return <button onClick={onClick} className={handleVariantStyling()}>{text}</button>
 }
