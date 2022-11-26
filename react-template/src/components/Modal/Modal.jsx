@@ -20,14 +20,14 @@ export const Modal = ({
         <div className="content">{children}</div>
         <div className="footer">
           <Button
-            onClick={onAccept}
-            text={"Accept"}
-            variant={ButtonVariants.primary}
-          />
-          <Button
             onClick={onCancel}
             text={"Cancel"}
             variant={ButtonVariants.secondary}
+          />
+          <Button
+            onClick={onAccept}
+            text={"Accept"}
+            variant={ButtonVariants.primary}
           />
         </div>
       </div>
