@@ -1,0 +1,19 @@
+.navigation {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 16px 24px;
+	background-color: black;
+	z-index: 1;
+}
+
+.navigation-logo {
+	font-size: 32px;
+}
+
+.navigation-list {
+	display: flex;
+	list-style-type: none;
+}
