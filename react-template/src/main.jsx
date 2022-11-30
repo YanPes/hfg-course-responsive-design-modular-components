@@ -5,7 +5,7 @@ import TestAufgabe from "./TestAufgabe";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/* <App /> */}
-    <TestAufgabe />
+    <App />
+    {/* <TestAufgabe /> */}
   </React.StrictMode>
 );
